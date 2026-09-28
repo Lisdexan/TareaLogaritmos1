@@ -2,7 +2,7 @@
 
 ## Requisitos
 - Máquina virtual con Linux (Debian 13), 2 GB de RAM minimo.
-- Compilador y make: `sudo apt install build-essential`
+- Compilador y make: <sudo apt install build-essential>
 - Python 3 y librerías para los gráficos:
   `sudo apt install python3-numpy python3-pandas python3-matplotlib`
 
