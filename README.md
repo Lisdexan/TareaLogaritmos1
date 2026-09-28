@@ -1,13 +1,22 @@
-# Instrucciones para la tarea
+# CC4102 – Tarea 1: Prim con colas binomiales y de Fibonacci
 
-Para usar la tarea se deberá usar una maquina virtual y dentro del la carpeta de la tarea usar los siguientes comandos:
-1.  make 
-2.  ./run_experiments 
-3.  python3 plot_results.py resultados
-De esta forma se runeara la tarea ademas de crear los graficos, que tambien usamos en nuestro informe.
+## Requisitos
+- Máquina virtual con Linux (Debian 13), 2 GB de RAM minimo.
+- Compilador y make: `sudo apt install build-essential`
+- Python 3 y librerías para los gráficos:
+  `sudo apt install python3-numpy python3-pandas python3-matplotlib`
 
+## Ejecución
+Dentro de la carpeta de la tarea:
 
-Para el tercer punto se necesitaran las siguiente librerias, Numpy Matplotlib y Pandas 
-Que se instalan con el siguiente comando:
+1. `make` — compila el programa de experimentos.
+2. `./run_experiments` — corre las series A, B, C y D. Tarda 7 minutos aprox. Luego crea una carpeta `resultados/` y escribe los CSV.
+3. `python3 plot_results.py resultados` — genera los 12 gráficos en `resultados/graficos/`.
 
-sudo apt install python3-numpy python3-pandas python3-matplotlib
+Al final, `run_experiments` imprime cuántos pesos de MST coinciden entre
+ambas colas
+
+## Archivos de salida
+- `resultados/costo_total_raw.csv`, `costo_total_resumen.csv`: tiempos.
+- `resultados/amortizado.csv`.
+- `resultados/graficos/*.png`: gráficos.
