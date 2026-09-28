@@ -1,4 +1,4 @@
-# CC4102 – Tarea 1: Prim con colas binomiales y de Fibonacci
+# CC4102 – Tarea 1
 
 ## Requisitos
 - Máquina virtual con Linux (Debian 13), 2 GB de RAM minimo.
