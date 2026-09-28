@@ -10,4 +10,4 @@ De esta forma se runeara la tarea ademas de crear los graficos, que tambien usam
 Para el tercer punto se necesitaran las siguiente librerias, Numpy Matplotlib y Pandas 
 Que se instalan con el siguiente comando:
 
--> sudo apt install python3-numpy python3-pandas python3-matplotlib
+sudo apt install python3-numpy python3-pandas python3-matplotlib
